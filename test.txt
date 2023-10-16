@@ -1,0 +1,36 @@
+    1  ls
+    2  cd Desktop/
+    3  ls
+    4  ls -la
+    5  cd projects/
+    6  ls
+    7  ls -la
+    8  cd my-first-repo/
+    9  ls -la
+   10  cd .git
+   11  ls
+   12  ls -la
+   13  cd ..
+   14  ls
+   15  pwd
+   16  cd ~/my-first-repo
+   17  cd ~/desktop/my-first-repo
+   18  cd ~/Desktop/my-first-repo
+   19  cd ~/Desktop/projects/
+   20  ls
+   21  cd my-first-repo/
+   22  ls -la
+   23  git status
+   24  touch test.txt
+   25  git status
+   26  git add test.txt 
+   27  git status
+   28  git restore -- stage test.txt
+   29  git restore --stage test.txt
+   30  git status
+   31  git add test.txt 
+   32  clear
+   33  git commit -m "Adding a mew file for testing"
+   34  git status
+   35  history
+   36  history > test.txt
